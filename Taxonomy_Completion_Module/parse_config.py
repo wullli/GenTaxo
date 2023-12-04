@@ -1,5 +1,6 @@
 import os
 import logging
+import sys
 from pathlib import Path
 from functools import reduce
 from operator import getitem
@@ -9,11 +10,11 @@ from utils import read_json, write_json
 
 
 class ConfigParser:
-    def __init__(self, args, options='', timestamp=True):
+    def __init__(self, args, options='', timestamp=True, cli_args=sys.argv[1:]):
         # parse default and custom cli options
         for opt in options:
             args.add_argument(*opt.flags, default=None, type=opt.type)
-        args = args.parse_args()
+        args = args.parse_args(cli_args)
 
         if args.device:
             os.environ["CUDA_VISIBLE_DEVICES"] = args.device

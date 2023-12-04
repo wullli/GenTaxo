@@ -1,0 +1,618 @@
+0 	 mackerel
+1 	 pickling salt
+2 	 green pepper
+3 	 sake
+4 	 potato bread
+5 	 creamed spinach
+6 	 fruit dish
+7 	 corn flakes
+8 	 rosemary
+9 	 pot roast
+10 	 soy product
+11 	 olive juice
+12 	 milk
+13 	 argan oil
+14 	 garlic bread
+15 	 rucola
+16 	 broccoli
+17 	 ricotta salata
+18 	 rice paper
+19 	 goose
+20 	 coffee creamer
+21 	 vegetable dish
+22 	 lamb liver
+23 	 asparagus
+24 	 pizza cheese
+25 	 apricot juice
+26 	 maize flour
+27 	 saffron
+28 	 sunflower oil
+29 	 protein powder
+30 	 gremolata
+31 	 grape juice
+32 	 edible fats and oils
+33 	 sprouting
+34 	 seasoned rice vinegar
+35 	 water chestnut
+36 	 lemon essence
+37 	 potato
+38 	 filet mignon
+39 	 mango juice
+40 	 sandwich
+41 	 cavatelli
+42 	 radish
+43 	 Philadelphia Cream Cheese
+44 	 mustard oil
+45 	 fruit bread
+46 	 French cheese
+47 	 choy sum
+48 	 orange peel
+49 	 tarama
+50 	 liquor
+51 	 broth
+52 	 cognac
+53 	 chicken fat
+54 	 food thickener
+55 	 dried oregano
+56 	 eggplant
+57 	 horseradish
+58 	 ice cube
+59 	 leaf vegetable
+60 	 anchovy paste
+61 	 condiment
+62 	 rennet
+63 	 duck liver
+64 	 dark soy sauce
+65 	 lemon sorbet
+66 	 bolognese sauce
+67 	 food
+68 	 relish
+69 	 blue food coloring
+70 	 Stilton cheese
+71 	 animal feed
+72 	 veal stock
+73 	 flatbread
+74 	 meringue
+75 	 okra
+76 	 Irish moss
+77 	 whole wheat bread
+78 	 wax bean
+79 	 truffle
+80 	 mayonnaise
+81 	 multigrain bread
+82 	 tonic water
+83 	 butterscotch schnapps
+84 	 baguette
+85 	 curry powder
+86 	 chili pepper
+87 	 citrus soft drink
+88 	 white bread
+89 	 jasmine tea
+90 	 grits
+91 	 pumpkin
+92 	 strawberry ice cream
+93 	 white pepper
+94 	 chicken drumstick
+95 	 macaroni
+96 	 offal
+97 	 orange flower water
+98 	 animal fats and oils
+99 	 salt substitute
+100 	 coconut milk powder
+101 	 sourdough baguette
+102 	 goose fat
+103 	 jam
+104 	 bean
+105 	 white asparagus
+106 	 white breadcrumbs
+107 	 edible paper
+108 	 candied fruit
+109 	 plantain
+110 	 hot mustard
+111 	 sour cream
+112 	 pasta
+113 	 cooked rice
+114 	 vegetable
+115 	 dinner roll
+116 	 meat tenderizer
+117 	 non alcoholic beverage
+118 	 soy cheese
+119 	 processed cheese
+120 	 apricot jam
+121 	 OKPD2 and CPA 2008 10321
+122 	 radicchio
+123 	 Baileys Irish Cream
+124 	 crouton
+125 	 brandy
+126 	 fruit jelly
+127 	 cream
+128 	 beef liver
+129 	 soy yogurt
+130 	 vegan burger
+131 	 bagel
+132 	 bun
+133 	 chicken meat
+134 	 mustard
+135 	 almond milk
+136 	 pistachio oil
+137 	 waffle
+138 	 gram flour
+139 	 pattypan squash
+140 	 marmalade
+141 	 soy flour
+142 	 orange juice
+143 	 beef jerky
+144 	 goat meat
+145 	 turkey burgers
+146 	 kosher salt
+147 	 whipped cream
+148 	 blue cheese
+149 	 shrimp
+150 	 potato gnocchi
+151 	 spirit drink
+152 	 chocolate bar
+153 	 cream cheese
+154 	 groat
+155 	 Pernod
+156 	 dry gin
+157 	 dairy product
+158 	 tuna
+159 	 salmon
+160 	 canned fruit
+161 	 potato salad
+162 	 shallot
+163 	 gnocchi
+164 	 cranberry juice
+165 	 strawberry schnapps
+166 	 carbonated water
+167 	 veal shank
+168 	 fermented milk products other than sour cream and cottage cheese
+169 	 table salt
+170 	 drink
+171 	 pork stock
+172 	 wheat gluten
+173 	 hummus
+174 	 salt pork
+175 	 fruit and vegetable juices OKPD and CPA 2002 15321 153210
+176 	 caster sugar
+177 	 calf liver
+178 	 lemon marmalade
+179 	 cocoa
+180 	 brown stock
+181 	 garlic powder
+182 	 sweet dish
+183 	 biscuit
+184 	 dog food
+185 	 blueberry jam
+186 	 liver
+187 	 avocado
+188 	 corn oil
+189 	 mutton
+190 	 molasses
+191 	 Kitchen Bouquet
+192 	 beef heart
+193 	 pork mince
+194 	 cracklings
+195 	 breakfast cereal
+196 	 pineapple jam
+197 	 root vegetable
+198 	 fleur de sel
+199 	 quick bread
+200 	 tapioca flour
+201 	 beef stock
+202 	 home fries
+203 	 orange bitters
+204 	 grain
+205 	 plantain chips
+206 	 yogurt
+207 	 oat flour
+208 	 processed food
+209 	 millet flour
+210 	 Processed milk Dairy products and dairy constituents other than cow milk butter butter paste cheese cheese products and milk fat
+211 	 hot dog
+212 	 cheese analogue
+213 	 veggie burger
+214 	 red cabbage
+215 	 allspice
+216 	 sandwich bread
+217 	 Appenzeller cheese
+218 	 cayenne pepper
+219 	 edible flower
+220 	 snack
+221 	 French onion soup
+222 	 bakery products pastry cakes and long term cakes
+223 	 tortellini
+224 	 pet food
+225 	 cocoa powder
+226 	 stock
+227 	 dietary products
+228 	 almond butter
+229 	 Western confection
+230 	 grainy mustard
+231 	 baking powder
+232 	 safflower oil
+233 	 orecchiette
+234 	 rose water
+235 	 Roses lime juice
+236 	 Cuban bread
+237 	 breadfruit
+238 	 herbal tea
+239 	 hamburger
+240 	 lard
+241 	 ham
+242 	 vegetables and gourds except potatoes
+243 	 white vermouth
+244 	 seed
+245 	 corn tortilla
+246 	 chocolate liqueur
+247 	 garlic salt
+248 	 fat spread
+249 	 dashi
+250 	 soy food
+251 	 Christmas dessert
+252 	 onion soup
+253 	 food ingredient
+254 	 fast food
+255 	 vegetable oil
+256 	 seafood dish
+257 	 brown bread
+258 	 salad
+259 	 human food
+260 	 truffle oil
+261 	 strawberry
+262 	 cellophane noodles
+263 	 spinach
+264 	 raspberry vodka
+265 	 beeswax
+266 	 cooking oil
+267 	 palm oil
+268 	 alfalfa sprouts
+269 	 vegetarian bacon
+270 	 pasta filata
+271 	 veal shoulder
+272 	 cider
+273 	 Roquefort cheese
+274 	 fruit preparation
+275 	 guava juice
+276 	 broccoflower
+277 	 turkey meat
+278 	 kale
+279 	 dried rosemary
+280 	 matzo meal
+281 	 castor oil
+282 	 sloe gin
+283 	 poultry
+284 	 white meat
+285 	 Angostura bitters
+286 	 Ricard
+287 	 white sugar
+288 	 sourdough bread
+289 	 shea butter
+290 	 cheese spread
+291 	 pressed cheese
+292 	 wild rice
+293 	 farina
+294 	 semolina
+295 	 bresaola
+296 	 sausage meat
+297 	 plum
+298 	 apple pie
+299 	 tzatziki
+300 	 confit
+301 	 rice cake
+302 	 kohlrabi
+303 	 alligator meat
+304 	 Grey Poupon
+305 	 fig jam
+306 	 rice milk
+307 	 salsa
+308 	 Cotija cheese
+309 	 rye flour
+310 	 schnapps
+311 	 raspberry juice
+312 	 basil oil
+313 	 beet
+314 	 parsley root
+315 	 turkey liver
+316 	 liquid smoke
+317 	 shirataki noodles
+318 	 marshmallow creme
+319 	 parivyaya
+320 	 fruit jam
+321 	 potato dish
+322 	 anise seed
+323 	 cottage cheese
+324 	 tuna salad
+325 	 diet
+326 	 elderflower cordial
+327 	 capellini
+328 	 barley flour
+329 	 lemon peel
+330 	 barley
+331 	 cream of asparagus soup
+332 	 corn kernel
+333 	 endive
+334 	 wheat flakes
+335 	 cake
+336 	 durum flour
+337 	 veal
+338 	 gelling sugar
+339 	 chicken salad
+340 	 fodder
+341 	 chives
+342 	 alphabet pasta
+343 	 hard cheese
+344 	 salt cured meat
+345 	 liqueur
+346 	 chicken breast
+347 	 rose petals
+348 	 hops
+349 	 diet soda
+350 	 falafel
+351 	 Dijon mustard
+352 	 fusilli
+353 	 watermelon rind
+354 	 rum
+355 	 vanilla ice cream
+356 	 sev
+357 	 ciabatta
+358 	 frozen yogurt
+359 	 galangal
+360 	 porridge
+361 	 stuffed pasta
+362 	 white cabbage
+363 	 diet cola
+364 	 fennel
+365 	 French bread
+366 	 energy drink
+367 	 New England clam chowder
+368 	 mint
+369 	 staple food
+370 	 pretzel
+371 	 food product
+372 	 chestnut flour
+373 	 meat product
+374 	 condensed milk
+375 	 hemp milk
+376 	 plant based meat analogue
+377 	 hash browns
+378 	 bakers confection
+379 	 starch
+380 	 fromage frais
+381 	 American cheese
+382 	 leg of lamb
+383 	 meat
+384 	 mould cheese
+385 	 fried tofu
+386 	 raisin bread
+387 	 pork and beans
+388 	 pickle juice
+389 	 green chili
+390 	 trail mix
+391 	 sansho pepper
+392 	 dish
+393 	 corned beef
+394 	 rice
+395 	 pancake
+396 	 beef shank
+397 	 turkey heart
+398 	 fish fumet
+399 	 fudge
+400 	 grape leaves
+401 	 juice
+402 	 fruit juice
+403 	 carrot
+404 	 drinking water
+405 	 natural cane sugar
+406 	 nut butter
+407 	 instant tea
+408 	 broccoli sprouts
+409 	 Japanese noodles
+410 	 tomato chutney
+411 	 cream soup
+412 	 fondant
+413 	 green food coloring
+414 	 plant based diet
+415 	 lemon oil
+416 	 canned pineapple
+417 	 powdered sugar
+418 	 pineapple juice
+419 	 roux
+420 	 pastina
+421 	 peanut flour
+422 	 bread
+423 	 smoked bacon
+424 	 fermented milk product
+425 	 watercress
+426 	 mixed nuts
+427 	 dry vermouth
+428 	 lentil soup
+429 	 beer
+430 	 parsnip
+431 	 light soy sauce
+432 	 frozen dessert
+433 	 chowder
+434 	 peach jam
+435 	 aromatic plant
+436 	 panettone
+437 	 apple cider vinegar
+438 	 sugar product
+439 	 plant milk
+440 	 soy sauce
+441 	 cold cut
+442 	 beet juice
+443 	 confection
+444 	 brick cheese
+445 	 tomato soup
+446 	 food additive
+447 	 pastrami
+448 	 rice dish
+449 	 mushroom soup
+450 	 banana bread
+451 	 milk substitute
+452 	 pork dish
+453 	 rice wine
+454 	 wheat
+455 	 toast
+456 	 leek
+457 	 whey cheese
+458 	 tagliolini
+459 	 fresh cheese
+460 	 lamb breast
+461 	 Brassica oleracea
+462 	 brine
+463 	 pork fat
+464 	 bakers yeast
+465 	 oatmeal
+466 	 food substitute
+467 	 shiitake mushroom
+468 	 buckwheat noodles
+469 	 sweet bread
+470 	 pancetta
+471 	 finger food
+472 	 pasilla chile
+473 	 onion powder
+474 	 fresh water
+475 	 mascarpone
+476 	 pickle relish
+477 	 turkey fat
+478 	 soup
+479 	 lamb meat
+480 	 roast
+481 	 baked good
+482 	 fried rice
+483 	 sherbet
+484 	 cucumber juice
+485 	 buckwheat flour
+486 	 hot beverage
+487 	 stimulant foodstuff
+488 	 cereal
+489 	 chocolate pudding
+490 	 ground hazelnuts
+491 	 cabbage
+492 	 tofu
+493 	 sea salt
+494 	 cream of broccoli soup
+495 	 squab
+496 	 spiced rum
+497 	 dried meat
+498 	 vermouth
+499 	 cassava
+500 	 kefir
+501 	 garam masala
+502 	 suckling pig
+503 	 citrus juice
+504 	 beef
+505 	 ice cream
+506 	 distilled vinegar
+507 	 grapefruit soda
+508 	 Copha
+509 	 rutabaga
+510 	 pickled cucumber
+511 	 cheese soup
+512 	 tea
+513 	 noodle
+514 	 oyster
+515 	 lobster meat
+516 	 gin
+517 	 boule
+518 	 spread
+519 	 Diet Coke
+520 	 smoked meat
+521 	 quail eggs
+522 	 surimi
+523 	 primal cut
+524 	 tomato dish
+525 	 celery juice
+526 	 cocktail
+527 	 oat milk
+528 	 banana ketchup
+529 	 truffle salt
+530 	 tequila
+531 	 shrimp paste
+532 	 hot dog bun
+533 	 wrap
+534 	 chicken liver
+535 	 first course
+536 	 cheese
+537 	 foie gras
+538 	 wheat flour
+539 	 raspberry jam
+540 	 rice bran
+541 	 food coloring
+542 	 lemon juice
+543 	 linguine
+544 	 marrow
+545 	 onion juice
+546 	 shrimp stock
+547 	 eel
+548 	 fillet
+549 	 flour
+550 	 schmaltz
+551 	 chicken soup
+552 	 mirin
+553 	 pork belly
+554 	 sugar syrup
+555 	 poppy seed
+556 	 dessert
+557 	 fettuccine
+558 	 edible plant
+559 	 rolled oats
+560 	 popcorn
+561 	 fruit preserves
+562 	 blackberry juice
+563 	 pork tenderloin
+564 	 zucchini
+565 	 margarine
+566 	 celery powder
+567 	 jaggery
+568 	 bison meat
+569 	 vegetable juice
+570 	 rhubarb
+571 	 light cream
+572 	 cows milk cheese
+573 	 sangria
+574 	 pierogi
+575 	 ginger beer
+576 	 pico de gallo
+577 	 bamboo shoots
+578 	 jenever
+579 	 meat dish
+580 	 shortening
+581 	 tangerine juice
+582 	 curing salt
+583 	 brown sugar
+584 	 millet
+585 	 bird seed
+586 	 peanut butter cup
+587 	 Maltesers
+588 	 tapioca
+589 	 cracker
+590 	 peanut butter
+591 	 scampi
+592 	 chapati
+593 	 clotted cream
+594 	 soft drink
+595 	 alcoholic beverage
+596 	 white balsamic vinegar
+597 	 egg
+598 	 caraway seeds
+599 	 food powder
+600 	 Thai basil
+601 	 croissant
+602 	 cheese curds
+603 	 smoked cheese
+604 	 nutmeg
+605 	 lime juice
+606 	 rump steak
+607 	 gingerbread
+608 	 coffee liqueur
+609 	 string like macaroni products
+610 	 pudding
+611 	 minced meat
+612 	 convenience food
+613 	 horseradish root
+614 	 yeast bread
+615 	 wheat starch
+616 	 palm sugar
+617 	 instant pudding mix

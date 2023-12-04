@@ -1,5 +1,7 @@
 import argparse
 import collections
+import sys
+
 import torch
 import data_loader.data_loaders as module_data
 import model.loss as module_loss
@@ -50,11 +52,11 @@ def main(config):
                       lr_scheduler=lr_scheduler)
     evaluations = trainer.train()
     end = time.time()
-    logger.info(f"Finish training in {end-start} seconds")
+    logger.info(f"Finish training in {end - start} seconds")
     return evaluations
 
 
-if __name__ == '__main__':
+def parse_args(cli_args=sys.argv[1:]):
     args = argparse.ArgumentParser(description='Training taxonomy expansion model')
     args.add_argument('-c', '--config', default=None, type=str, help='config file path (default: None)')
     args.add_argument('-r', '--resume', default=None, type=str, help='path to latest checkpoint (default: None)')
@@ -70,12 +72,13 @@ if __name__ == '__main__':
         CustomArgs(['--bs', '--batch_size'], type=int, target=('train_data_loader', 'args', 'batch_size')),
         CustomArgs(['--ns', '--negative_size'], type=int, target=('train_data_loader', 'args', 'negative_size')),
         CustomArgs(['--ef', '--expand_factor'], type=int, target=('train_data_loader', 'args', 'expand_factor')),
-        CustomArgs(['--crt', '--cache_refresh_time'], type=int, target=('train_data_loader', 'args', 'cache_refresh_time')),
+        CustomArgs(['--crt', '--cache_refresh_time'], type=int,
+                   target=('train_data_loader', 'args', 'cache_refresh_time')),
         CustomArgs(['--nw', '--num_workers'], type=int, target=('train_data_loader', 'args', 'num_workers')),
         CustomArgs(['--sm', '--sampling_mode'], type=int, target=('train_data_loader', 'args', 'sampling_mode')),
         # Trainer & Optimizer
-        CustomArgs(['--mode'], type=str, target=('mode', )),
-        CustomArgs(['--loss'], type=str, target=('loss', )),
+        CustomArgs(['--mode'], type=str, target=('mode',)),
+        CustomArgs(['--loss'], type=str, target=('loss',)),
         CustomArgs(['--ep', '--epochs'], type=int, target=('trainer', 'epochs')),
         CustomArgs(['--es', '--early_stop'], type=int, target=('trainer', 'early_stop')),
         CustomArgs(['--tbs', '--test_batch_size'], type=int, target=('trainer', 'test_batch_size')),
@@ -100,8 +103,13 @@ if __name__ == '__main__':
         CustomArgs(['--hidden_drop'], type=float, target=('arch', 'args', 'hidden_drop')),
         CustomArgs(['--out_drop'], type=float, target=('arch', 'args', 'out_drop')),
     ]
+    return args, options
+
+
+def run(cli_args):
+    args, options = parse_args()
     config = ConfigParser(args, options)
-    args = args.parse_args()
+    args = args.parse_args(cli_args)
     n_trials = args.n_trials
 
     if n_trials > 0:
@@ -113,7 +121,7 @@ if __name__ == '__main__':
 
         evaluations = []
         for i in range(n_trials):
-            config.set_save_dir(i+1)
+            config.set_save_dir(i + 1)
             res = main(config)
             evaluations.append(res)
             fin.write('\t'.join([f'{i:.3f}' for i in res]))
@@ -126,3 +134,7 @@ if __name__ == '__main__':
         config.get_logger('train').info(final_output)
     else:
         main(config)
+
+
+if __name__ == '__main__':
+    run(sys.argv)
