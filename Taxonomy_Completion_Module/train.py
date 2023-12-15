@@ -109,7 +109,7 @@ def get_argparse():
 def run():
     args, options = get_argparse()
     config = ConfigParser(args, options)
-    args = args.parse_args()
+    args = args.parse_args(cli_args)
     n_trials = args.n_trials
 
     if n_trials > 0:
