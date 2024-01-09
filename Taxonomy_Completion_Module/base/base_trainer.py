@@ -9,6 +9,7 @@ class BaseTrainer:
     """
     Base class for all trainers
     """
+
     def __init__(self, model, loss, metrics, optimizer, config, save_flag=1):
         self.save_flag = save_flag
         self.config = config
@@ -78,7 +79,7 @@ class BaseTrainer:
             self.logger.info('    {:15s}: {:.3f}'.format('test_' + mtr.__name__, test_values[i]))
         return test_values
 
-    def train(self):
+    def train(self, return_model_path=False):
         """
         Full training logic
         """
@@ -138,6 +139,8 @@ class BaseTrainer:
         self.model.load_state_dict(best_state)
         evaluations = self.test()
         self.logger.info("The best model saved in: {} ...".format(best_saved))
+        if return_model_path:
+            return evaluations, best_saved
         return evaluations
 
     def _prepare_device(self, n_gpu_use):

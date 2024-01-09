@@ -50,10 +50,10 @@ def main(config):
                       config=config,
                       data_loader=train_data_loader,
                       lr_scheduler=lr_scheduler)
-    evaluations = trainer.train()
+    evaluations, model_path = trainer.train(return_model_path=True)
     end = time.time()
     logger.info(f"Finish training in {end - start} seconds")
-    return evaluations
+    return evaluations, model_path
 
 
 def get_argparse():
